@@ -28,5 +28,8 @@ I applied a background image of an old yellow paper to make it feel like an old,
 
 
 Links used:
+https://www.freevector.com/vector-sky-background
+https://pngimg.com/image/73415
+https://www.iconfinder.com/icons/771370/circle_linkedin_logo_media_network_social_share_icon
 https://stackoverflow.com/questions/14585101/old-paper-background-texture-with-just-css
 https://fonts.google.com/specimen/Cormorant+Upright?category=Serif&preview.text_type=custom&sidebar.open=true&selection.family=Cormorant+Upright:wght@400;700
