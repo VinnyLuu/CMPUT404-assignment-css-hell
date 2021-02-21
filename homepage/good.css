@@ -1,0 +1,111 @@
+body {
+    background-image: url("background.jpeg");
+    background-size: cover; /*Taken from https://stackoverflow.com/questions/376253/stretch-and-scale-css-background*/
+    background-attachment: fixed;
+    font-family: 'Shippori Mincho', serif;
+    color: white
+}
+
+img.sec {
+    width: 15em;
+    height: 15em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+div.section {
+    margin-top: 5%;
+}
+/* Nav bar example taken from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.links {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    list-style-type: none;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+li.horizontal_nav {
+    float: left;
+}
+
+li.horizontal_links {
+    margin: auto;
+    display: flexbox;
+    justify-content: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+li.horizontal_links a {
+    text-decoration: none;
+}
+
+li.horizontal_nav a:hover {
+    background-color: #111;
+}
+
+li.horizontal_nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* rounded imgs https://www.w3schools.com/howto/howto_css_rounded_images.asp */
+img.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}  
+
+img.links {
+    width: 10%;
+    height: 10%;
+    border-radius: 20%;
+}  
+
+div.content {
+    display: inline-block;
+}
+
+div.table {
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+/* Grid of images taken from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp*/  
+/* Create four equal columns that sits next to each other */
+.column {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
