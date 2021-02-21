@@ -1,32 +1,94 @@
 <!doctype html>
-
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>Good HTML</title>
-  <link rel="stylesheet" href="bad.css">
+    <title>Bad HTML</title>
+    <link rel="stylesheet" href="bad.css">
 </head>
 
+
 <body>
-    <h2>About me</h2>
-    <img src="picture.jpeg" alt="Vinny Luu">
-    <p>I am Vinny Luu, a 5-th year university student at the University of Alberta, majoring in Computing Science. I enjoy playing games, rock-climbing and programming!</p>
 
-    <h2>Professional History</h2>
-    <p>Worked for 8 months at BlackBerry as a software developer. I was a TA at the University of Alberta for CMPUT174, a intro 
-    computer science course teaching programming fundamentals to students. 
-    </p>
+    <ul class="nav">
+        <li class="horizontal_nav"><a href="#home">Home</a></li>
+        <li class="horizontal_nav"><a href="#about_me">About Me</a></li>
+        <li class="horizontal_nav"><a href="#history">Work History</a></li>
+        <li class="horizontal_nav"><a href="#offer">Skills</a></li>
+    </ul>
+    
+    <div id="home">
+        <img class="profile" src="images/picture.jpeg" alt="Vinny Luu">
+        <h1>Vinny Luu</h1>
+        
+    </div>
 
-    <h2>What I have to offer</h2>
-    <p>Programming languages:
-        <li>Python</li>
-        <li>Java</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>C++</li>
-    </p>
+    <div id="my_links">
+        <a href="https://github.com/VinnyLuu">
+            <img class="links" src="images/github.png" alt="https://github.com/VinnyLuu">
+        </a>
+        
+        <a href="https://www.linkedin.com/in/vinny-luu-7a3a99170/">
+            <img class="links" src="images/linkedin.png" alt="https://www.linkedin.com/in/vinny-luu-7a3a99170/">
+        </a>
+    </div>
+
+    <div class="section" id="about_me">
+        <h2>About me</h2>
+
+        <img class="sec" src="images/uofa.png">
+        <p>I am a 5-th year university student at the University of Alberta, majoring in Computing Science. 
+            In my spare time, I enjoy playing games, rock-climbing and programming!
+            I am currently learning Japanese and love watching anime, reading manga, and listening to Jpop. よろしくお願いいたします
+
+    </div>
+
+    <div class="section" id="history">
+        <h2>Work History</h2>
+        <h3>BlackBerry</h3>
+        
+        <img class="sec" src="images/blackberry.png">
+        <p>
+            Software Developer: I built dashboards and visualizations for BlackBerry's productivity apps, analyzing user interaction
+            and app analytics. I developed/maintained telemetry APIs for data collection within apps, improving
+            existing infrastructure.
+            <br>
+            <br>
+            Android Student Developer: I worked on BlackBerry's productivity suite of apps (Calendar, Notes, Tasks, Inbox).
+            I developed and maintained frontend UI and backend infrastructure and also helped
+            integrate Exchange Web Services (EWS) into productivity apps with feature
+            development and patching of existing features.
+        </p>
+            
+        <br>
+
+        <h3>University of Alberta</h3>
+        
+        <img class="sec" src="images/uofa.png">
+        <p>I was a TA at the University of Alberta for CMPUT174, a intro
+            computer science course teaching programming fundamentals to students. 
+        </p>
+
+    </div>
+
+    <div id="offer">
+        <h2>Skills</h2>
+        <!-- grid of imgs -->
+        <div id="table">
+            <div class="row">
+                <div class="column">
+                    <img src="images/python.png">
+                    <img src="images/c++.png">
+                    <img src="images/java.png">
+                </div>
+                <div class="column">
+                    <img src="images/html.png">
+                    <img src="images/css.png">
+                    <img src="images/js.png">
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

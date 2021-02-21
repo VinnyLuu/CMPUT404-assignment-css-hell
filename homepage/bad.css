@@ -1,17 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&display=swap');
 body {
-    background-image: url("images/background.jpeg");
-    background-size: cover; /*Taken from https://stackoverflow.com/questions/376253/stretch-and-scale-css-background*/
-    background-attachment: fixed;
+    background-image: url("images/stars.jpg");
     font-family: 'Shippori Mincho', serif;
-    color: black
+    color: salmon
 }
-
-h1, h2, h3 {
-    text-align: center;
-}
-
-
 
 /* Nav bar example taken from https://www.w3schools.com/css/css_navbar_horizontal.asp */
 ul.nav {
@@ -19,14 +11,11 @@ ul.nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-
-li.horizontal_nav {
-    float: left;
+    background-color: red;
 }
 
 li.horizontal_nav a:hover {
-    text-decoration: underline;
+    background-color: white;
 }
 
 li.horizontal_nav a {
@@ -42,7 +31,7 @@ img.profile {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid white;
+    border: 10px dotted green;
     border-radius: 50%;
     margin-top: 20px;
 }  
