@@ -27,31 +27,8 @@ ul.nav {
     background-color: #333;
 }
 
-ul.links {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-left: 0%;
-    padding-right: 0%;
-    list-style-type: none;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
 li.horizontal_nav {
     float: left;
-}
-
-li.horizontal_links {
-    margin: auto;
-    display: flexbox;
-    justify-content: center;
-    /* margin-left: auto;
-    margin-right: auto; */
-}
-
-li.horizontal_links a {
-    text-decoration: none;
 }
 
 li.horizontal_nav a:hover {
@@ -75,8 +52,8 @@ img.profile {
 }  
 
 img.links {
-    width: 10%;
-    height: 10%;
+    width: 64px;
+    height: 64px;
     border-radius: 20%;
 }  
 
@@ -84,28 +61,21 @@ div.content {
     display: inline-block;
 }
 
-div.table {
-    display:flexbox;
+/* Grid of images taken from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp*/  
+/* Create four equal columns that sits next to each other */
+
+#my_links {
+    display: flex;
+    justify-content: center;
+}
+
+#table {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-/* Grid of images taken from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp*/  
-/* Create four equal columns that sits next to each other */
-.column {
-flex: 25%;
-max-width: 25%;
-padding: 0 4px;
-}
-
-.column img {
-margin-top: 8px;
-vertical-align: middle;
-width: 100%;
+#table img {
+    width: 128px;
+    height: 128px;
 }
