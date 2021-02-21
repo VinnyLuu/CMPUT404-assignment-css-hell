@@ -26,10 +26,31 @@ Changed html to use gutenberg.css stylesheet
 I changed the font style for paragraphs and headers to Apple Chancery, cursive.
 I applied a background image of an old yellow paper to make it feel like an old, worn out book.
 
+Images used:
+https://www.vexels.com/png-svg/preview/166383/html-programming-language-icon
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2FViglino%2Ficonicss&psig=AOvVaw0unAOIz3qcfub2pnL5HiCS&ust=1613963892698000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICHuZaC-u4CFQAAAAAdAAAAABAD
+
+https://en.wikipedia.org/wiki/University_of_Alberta#/media/File:University_of_Alberta_seal.svg
+
+https://github.com/FortAwesome/Font-Awesome/issues/14021
+
+https://iconscout.com/icon/javascript-2038874
+
+https://www.iconfinder.com/icons/401285/java_icon
+
+https://commons.wikimedia.org/wiki/File:Python.svg
+
+https://www.pinterest.ca/pin/255016397637139513/
+
+https://www.freevector.com/vector-sky-background
+
+https://pngimg.com/image/73415
+
+https://www.iconfinder.com/icons/771370/
+
+circle_linkedin_logo_media_network_social_share_icon
 
 Links used:
-https://www.freevector.com/vector-sky-background
-https://pngimg.com/image/73415
-https://www.iconfinder.com/icons/771370/circle_linkedin_logo_media_network_social_share_icon
 https://stackoverflow.com/questions/14585101/old-paper-background-texture-with-just-css
 https://fonts.google.com/specimen/Cormorant+Upright?category=Serif&preview.text_type=custom&sidebar.open=true&selection.family=Cormorant+Upright:wght@400;700
