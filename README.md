@@ -25,6 +25,10 @@ Changes made to gutenberg html files:
 Changed html to use gutenberg.css stylesheet
 I changed the font style for paragraphs and headers to Apple Chancery, cursive.
 I applied a background image of an old yellow paper to make it feel like an old, worn out book.
+Headers are now underlined
+Images have a black border around it
+Paragraphs have margins on the top and bottom to give more seperation
+Made the first letter of each paragraph tag be bolded and bigger
 
 Images used:
 https://www.vexels.com/png-svg/preview/166383/html-programming-language-icon
