@@ -58,3 +58,6 @@ circle_linkedin_logo_media_network_social_share_icon
 Links used:
 https://stackoverflow.com/questions/14585101/old-paper-background-texture-with-just-css
 https://fonts.google.com/specimen/Cormorant+Upright?category=Serif&preview.text_type=custom&sidebar.open=true&selection.family=Cormorant+Upright:wght@400;700
+
+Collaborators:
+I discussed how to approach the assignment and some issues I ran into together with Justin Mah.
