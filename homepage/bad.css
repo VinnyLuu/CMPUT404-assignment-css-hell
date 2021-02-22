@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
 body {
     background-image: url("images/stars.jpg");
-    font-family: 'Shippori Mincho', serif;
-    color: salmon
+    background-size: 125% 50%;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: rgb(0, 255, 0);
 }
 
 /* Nav bar example taken from https://www.w3schools.com/css/css_navbar_horizontal.asp */
@@ -26,13 +27,9 @@ li.horizontal_nav a {
     text-decoration: none;
 }
 
-/* rounded imgs https://www.w3schools.com/howto/howto_css_rounded_images.asp */
 img.profile {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     border: 10px dotted green;
-    border-radius: 50%;
     margin-top: 20px;
 }  
 
@@ -40,7 +37,6 @@ img.links {
     padding: 20px;
     width: 64px;
     height: 64px;
-    border-radius: 20%;
 }  
 
 div.section {
