@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&display=swap');
 body {
-    background-image: url("images/background.jpeg");
+    background-image: url("images/sky.jpg");
     background-size: cover; /*Taken from https://stackoverflow.com/questions/376253/stretch-and-scale-css-background*/
     background-attachment: fixed;
     font-family: 'Shippori Mincho', serif;
-    color: black
+    color: white;
 }
 
 h1, h2, h3 {
@@ -31,7 +31,7 @@ li.horizontal_nav a:hover {
 
 li.horizontal_nav a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

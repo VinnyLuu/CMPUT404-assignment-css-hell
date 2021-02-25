@@ -31,6 +31,8 @@ Paragraphs have margins on the top and bottom to give more seperation
 Made the first letter of each paragraph tag be bolded and bigger
 
 Images used:
+https://www.123freevectors.com/old-parchment-texture-background-126400/
+
 https://www.vexels.com/png-svg/preview/166383/html-programming-language-icon
 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2FViglino%2Ficonicss&psig=AOvVaw0unAOIz3qcfub2pnL5HiCS&ust=1613963892698000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICHuZaC-u4CFQAAAAAdAAAAABAD
@@ -47,16 +49,13 @@ https://commons.wikimedia.org/wiki/File:Python.svg
 
 https://www.pinterest.ca/pin/255016397637139513/
 
-https://www.freevector.com/vector-sky-background
+https://www.jcbackings.com/gallery.php?type=qsearch&searchfor=CT-829&itemnumber=CT-829
 
 https://pngimg.com/image/73415
 
-https://www.iconfinder.com/icons/771370/
-
-circle_linkedin_logo_media_network_social_share_icon
+https://www.iconfinder.com/icons/771370/circle_linkedin_logo_media_network_social_share_icon
 
 Links used:
-https://stackoverflow.com/questions/14585101/old-paper-background-texture-with-just-css
 https://fonts.google.com/specimen/Cormorant+Upright?category=Serif&preview.text_type=custom&sidebar.open=true&selection.family=Cormorant+Upright:wght@400;700
 
 Collaborators:

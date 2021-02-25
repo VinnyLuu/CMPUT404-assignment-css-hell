@@ -1,5 +1,7 @@
 body {
-        background-image: url("old_paper_image.jpg");
+        background-image: url("old.jpg");
+        background-size: cover; /*Taken from https://stackoverflow.com/questions/376253/stretch-and-scale-css-background*/
+        background-attachment: fixed;
         font-family: 'Cormorant Upright', serif;
 }
 
